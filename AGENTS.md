@@ -4,57 +4,53 @@
 
 This repository contains the website for **PCRAIG DIGITAL INC.**
 
-PCRAIG DIGITAL is Paul Craig's small consulting company. It focuses primarily on government and public-interest technology work, particularly:
+PCRAIG DIGITAL is Paul Craig's consulting practice.
+
+The business focuses primarily on:
 
 - technical strategy
 - rapid prototyping
 - AI product development
 - forward-deployed engineering
+- government and public-interest digital services
 
-The website is primarily a business-development and RFP-supporting website.
+The website supports business development, consulting opportunities, RFPs,
+and professional evaluation.
 
-It should make PCRAIG DIGITAL look like a highly experienced specialist consultancy that can enter an ambiguous problem early, help determine the technical direction, and rapidly prove that direction through working software.
+PCRAIG DIGITAL is intentionally a specialist practice. Do not present it as
+a large agency or imply the existence of employees, teams, offices, or
+capabilities that are not real.
 
 ---
 
-## Primary audience
+## Audience
 
-The primary audience is:
+The primary audiences are:
 
-1. government departments and agencies
-2. government-focused consultancies looking for specialist technical capacity
-3. organizations with complicated workflows that need technical strategy, prototyping, or AI product development
-4. technical recruiters or recruiters from companies where Paul has submitted an application
+- government departments and agencies
+- public-interest organizations
+- government-focused consultancies seeking specialist technical capacity
+- organizations dealing with complicated workflows or ambiguous technical problems
+- recruiters and hiring managers evaluating Paul Craig
 
-The site should also make sense to ordinary private-sector organizations.
+The site should communicate that Paul:
 
-Government buyers should come away thinking:
-
-> This person has worked in environments like ours, understands the constraints, can help us figure out what to do, and can actually build enough of the solution to prove it.
+- has substantial experience working in and with government
+- can work directly with users, stakeholders, and organizational leadership
+- can help determine technical direction before requirements are fixed
+- can rapidly prototype and validate ideas
+- is technically capable of building production software himself
+- has significant practical experience building AI-enabled products
 
 ---
 
 ## Core positioning
 
-The three most important ideas are:
+The most important professional themes are:
 
 1. **Technical strategy**
 2. **Rapid product delivery**
-3. **End-to-end engineering capability, particularly around implementing AI**
-
-PCRAIG DIGITAL is particularly useful early in a project, when:
-
-- the problem is still ambiguous
-- business processes need to be understood
-- assumptions need testing
-- requirements are not yet trustworthy
-- technical direction is still being established
-- a prototype can prevent expensive mistakes later
-- we have to use AI but we don't know how
-
-Do not position Paul merely as an implementation developer who arrives after another consultancy has created the strategy.
-
-Strategy and implementation should feel connected.
+3. **End-to-end engineering, particularly AI product engineering**
 
 A useful shorthand is:
 
@@ -64,49 +60,38 @@ A useful shorthand is:
 
 ## Voice
 
-The voice should be:
+The site's voice should be:
 
 - confident
 - concise
-- technically credible
 - direct
-- slightly irreverent
+- technically credible
 - human
+- occasionally irreverent
 
-It can occasionally be brash, but should not sound hostile, juvenile, arrogant, or like an advertising agency trying to be edgy.
+It can be opinionated, but should not sound:
 
-Balance confidence with:
+- arrogant
+- hostile
+- juvenile
+- overly sales-oriented
+- like generic consultancy marketing
 
-### Humour
+Humour should be dry and occasional.
 
-Use occasional dry humour or understated jokes.
+Confidence should come primarily from specific experience and evidence.
 
-Do not turn every heading into a joke.
-
-### Moral compass
-
-Paul prefers building technology that improves services and institutions.
-
-The site may express preferences for:
+The site can reflect preferences for:
 
 - useful public technology
 - accessibility
 - user needs
 - open standards
 - simple systems
-- technology that makes people's lives easier
+- maintainable software
+- technology that improves services rather than adding unnecessary complexity
 
-Avoid vague "technology for good" marketing language.
-
-### Humility
-
-The site can acknowledge that difficult projects begin with uncertainty.
-
-A useful attitude is:
-
-> We do not know everything at the start. That is why we research, prototype, test, and learn.
-
-Confidence should come from experience and evidence rather than pretending every answer is obvious.
+Avoid vague "technology for good" language.
 
 ---
 
@@ -122,128 +107,55 @@ Confidence should come from experience and evidence rather than pretending every
 - project metrics
 - professional experience
 
-Do not invent or extrapolate metrics.
-
-Do not change dates, quantities, organizations, technologies, or project roles.
-
-If a desired claim is not supported by the supplied source material, flag it rather than inventing evidence.
-
 ---
 
-## Design reference
+## Existing site is the design source of truth
 
-`docs/preview.html` is the starting visual reference.
+The current production HTML and CSS are the primary source of truth for the
+site's visual design and structure.
 
-Do not reproduce it mechanically if a cleaner implementation achieves the same design intent.
+Before changing design or layout:
 
-The important characteristics are:
+1. inspect the existing implementation
+2. understand the established visual patterns
+3. preserve them unless the task explicitly asks for a design change
 
-- warm off-white / beige background
-- strong near-black text
-- one highlighter-like accent colour
-- restrained secondary accent colour
-- substantial whitespace
-- large but not absurd hero typography
-- brutalist/editorial structure
-- slightly friendlier typography than conventional neo-brutalism
-- visible grid and alignment
-- modest use of rules/borders
-- aligned logo treatment
-- numbers used as proof
-- small hand-drawn / doodle-like details are welcome
-- no giant decorative hero image
-- project screenshots should be supporting elements, not dominate the page
+Do not rebuild existing components or styles from an older reference document
+when the current implementation already establishes the intended behaviour.
 
-The design should feel:
+The site should continue to feel like:
 
-> public-interest consultancy × competent engineer × independent studio that has earned the right to be opinionated
+> public-interest consultancy × experienced engineer × independent studio
 
-It should not feel like:
+It should not drift toward:
 
 - a SaaS landing page
 - a generic management consultancy
 - a giant digital agency
-- cyberpunk
-- a developer terminal
-- a crypto startup
-- pop-art chaos
-
----
-
-## Landing-page structure
-
-The current preferred structure is:
-
-1. Header
-2. Hero / major claim
-3. Services / how the work gets done
-   - 01 Technical strategy
-   - 02 Rapid prototyping
-   - 03 AI product development
-4. Featured work
-   - initially three projects
-5. Quantitative proof
-6. Client / organization logos
-7. About Paul / PCRAIG DIGITAL
-8. Contact
-9. Minimal footer
-
-Do not add sections merely to make the page longer.
-
-This site does not need:
-
-- a blog on launch
-- testimonials unless genuine ones are supplied
-- newsletter signup
-- pricing
-- fake team pages
-- generic "our values" cards
-- stock photography
-- unnecessary FAQs
-
----
-
-## Featured work
-
-Initial featured projects should focus on recent work where Paul had unusually high ownership.
-
-Likely initial projects:
-
-1. New York State Apprenticeship Finder
-2. Amicus: AI bot for a Government of Canada department
-3. NOFO Builder for HHS
-
-Short case-study pages may be added later under `/work/`.
-
-For now, we want to just add the listing which will be a media component with a photo, title, description, etc. You can see them on the preview.html site.
+- cyberpunk / terminal aesthetics
+- crypto branding
+- generic startup templates
 
 ---
 
 ## Technology
 
-Keep the site technically boring.
+Keep the site deliberately simple.
 
-Preferred implementation:
+Current preferred architecture:
 
 - semantic HTML
 - CSS
-- minimal or no JavaScript
 - static assets
+- minimal or no JavaScript
+- direct GitHub Pages hosting
 
-Do not introduce React, Next.js, Astro, Tailwind, a CMS, a bundler, or another framework without a concrete need.
-
-The site should be capable of being hosted directly on GitHub Pages.
-
-Prefer:
-
-- `index.html`
-- `styles.css`
-- ordinary HTML case-study pages
-- local images and SVGs
-
-A little progressive enhancement is fine if genuinely useful.
+Do not introduce React, Next.js, Astro, Tailwind, a CMS, a bundler, a package
+manager, or another framework without a concrete requirement that justifies it.
 
 Do not add JavaScript solely for visual effects.
+
+Prefer the simplest implementation that solves the problem.
 
 ---
 
@@ -251,89 +163,55 @@ Do not add JavaScript solely for visual effects.
 
 Accessibility is a first-class requirement.
 
-At minimum:
+Target WCAG 2.2 AA.
+
+Preserve or improve:
 
 - semantic HTML
 - sensible heading hierarchy
-- keyboard-accessible navigation
+- keyboard navigation
 - visible focus states
 - sufficient colour contrast
-- useful alt text
-- no information communicated by colour alone
-- respect `prefers-reduced-motion`
+- meaningful alt text
 - responsive layouts
-- no inaccessible custom controls when native HTML will work
+- native HTML controls where possible
+- reduced-motion preferences where motion exists
 
-Target WCAG 2.2 AA.
-
-Do not compromise accessibility to preserve a visual gimmick.
+Do not compromise accessibility to preserve a visual effect.
 
 ---
 
 ## Performance
 
-The site should be extremely fast.
+The site should remain extremely lightweight and fast.
 
 Prefer:
 
-- minimal CSS
-- no large JavaScript bundles
+- minimal HTML and CSS
+- no unnecessary JavaScript
 - appropriately sized images
-- modern image formats where practical
-- system fonts or a very small number of web-font files
-- no unnecessary third-party scripts
+- as few font files / weights as practical
+- no unnecessary third-party resources
 
-Do not add analytics, trackers, cookie banners, or third-party embeds unless explicitly requested.
+Do not sacrifice maintainability or accessibility for negligible performance gains.
 
 ---
 
 ## Responsive behaviour
 
-Design desktop-first if useful, but every page must work properly on mobile.
+Every page must work properly on mobile and desktop.
 
-Avoid simply shrinking desktop typography.
+When making layout changes, check approximately:
 
-Reflow layouts deliberately.
+- 375px
+- 768px
+- 1440px
 
-Check at minimum:
-
-- ~375px mobile
-- ~768px tablet
-- ~1440px desktop
+Do not treat mobile as merely a scaled-down desktop layout.
 
 ---
 
-## SEO and machine-readable content
-
-Use:
-
-- useful `<title>` values
-- sensible meta descriptions
-- semantic heading structure
-- canonical URLs where appropriate
-- descriptive page copy rather than keyword stuffing
-
-Eventually include:
-
-- `/llms.txt`
-- `/sitemap.xml`
-- `/robots.txt`
-
-The site should be easy for both humans and automated recruiting/procurement systems to understand.
-
----
-
-## Contact
-
-The primary conversion is intentionally simple:
-
-`mailto:paul@pcraig.ca`
-
-Do not build a contact form unless explicitly requested.
-
----
-
-## Content editing rules
+## Content
 
 Prefer:
 
@@ -343,47 +221,88 @@ Prefer:
 - active voice
 - plain English
 
-Avoid:
+Avoid generic consultancy filler such as:
 
-- "innovative solutions"
-- "digital transformation" unless context genuinely requires it
-- "leverage"
-- "synergy"
-- "cutting-edge"
-- "world-class"
-- "passionate"
-- generic consultancy filler
+- innovative solutions
+- leverage
+- synergy
+- cutting-edge
+- world-class
+- passionate
 
-Do not describe ordinary software-development practices as extraordinary achievements.
+"Digital transformation" may be used deliberately or ironically, but should
+not become generic marketing language.
 
-Let project evidence establish credibility.
+Do not describe normal software-development practices as extraordinary
+achievements.
 
 ---
 
-## Development workflow
+## Contact
 
-When making significant changes:
+The primary conversion is:
 
-1. inspect the existing implementation before editing
-2. preserve the established design system unless the task specifically changes it
-3. make the smallest coherent change
-4. test responsive behaviour
-5. check keyboard interaction and accessibility
-6. verify links
-7. avoid introducing dependencies unnecessarily
+`mailto:paul@pcraig.ca`
 
-Do not refactor unrelated code while implementing a focused request.
+---
+
+## SEO and machine-readable content
+
+Preserve useful:
+
+- page titles
+- meta descriptions
+- semantic heading structure
+- descriptive content
+- alt text
+- canonical URLs where appropriate
+
+The project may contain:
+
+- `llms.txt`
+- `sitemap.xml`
+- `robots.txt`
+
+These should contain factual, useful information rather than instructions
+attempting to manipulate search engines or language models.
+
+---
+
+## Working in this repository
+
+Before editing:
+
+1. inspect the relevant existing files
+2. understand the established implementation
+3. make the smallest coherent change that satisfies the task
+
+While editing:
+
+- preserve existing conventions where they work
+- avoid unrelated refactors
+- avoid unnecessary dependencies
+- do not change copy, design, or behaviour outside the requested scope without reason
+
+After editing:
+
+1. review the diff
+2. test affected layouts at appropriate viewport sizes
+3. check keyboard interaction when relevant
+4. verify affected links and assets
+5. check for obvious accessibility regressions
+6. report material decisions, tradeoffs, or unresolved issues
 
 ---
 
 ## Definition of done
 
-A change is done when:
+A change is complete when:
 
-- it works in a modern browser
-- the layout works on mobile and desktop
+- it satisfies the requested task
+- it works in modern browsers
+- affected mobile and desktop layouts work
 - there are no obvious accessibility regressions
 - factual claims remain supported
 - no unnecessary dependency has been introduced
-- the implementation remains suitable for static GitHub Pages hosting
-- the design still feels like PCRAIG DIGITAL rather than a generic template
+- the site remains suitable for static GitHub Pages hosting
+- the result still feels consistent with the existing PCRAIG DIGITAL site
