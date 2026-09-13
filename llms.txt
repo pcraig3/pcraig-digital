@@ -1,0 +1,440 @@
+# PCRAIG DIGITAL INC.
+
+> PCRAIG DIGITAL is Paul Craig's specialist consulting practice for technical strategy, rapid prototyping, AI product development, and forward-deployed engineering. The practice primarily works with government and mission-driven organizations that need to move from ambiguous problems to clear technical direction and working software.
+
+PCRAIG DIGITAL is intentionally a specialist practice, not a large agency. Clients work directly with Paul Craig, a Forward-Deployed / AI Product Engineer and technical strategist with more than 10 years of experience building modern digital services across Canada, the United Kingdom, and the United States.
+
+The central proposition is "strategy that ships": technical strategy should be informed by real users, tested through prototypes, and connected to implementation. PCRAIG DIGITAL is most useful early in a project, when the problem is important but the requirements, technical direction, or role for AI are not yet clear.
+
+## What PCRAIG DIGITAL does
+
+PCRAIG DIGITAL focuses on three connected areas of work.
+
+### Technical strategy
+
+The work starts by understanding the actual system rather than assuming the requested solution is correct.
+
+Typical activities include:
+
+- working directly with users, stakeholders, product teams, policy teams, and organizational leadership
+- understanding business processes and service workflows
+- separating known facts from assumptions
+- identifying the highest-risk technical or product questions
+- evaluating technical approaches
+- clarifying what should be built, what should be tested first, and what may not need to be built at all
+- translating an ambiguous problem into a practical technical direction
+
+The first useful deliverable is clarity. The goal is not a strategy deck that is disconnected from implementation.
+
+### Rapid prototyping
+
+PCRAIG DIGITAL uses working software to answer questions early.
+
+A prototype should test the most important uncertainty while changing direction is still inexpensive. Depending on the problem, that might mean an AI assistant, a scraper, a data pipeline, an internal interface, an API, a workflow, or a small end-to-end application.
+
+The purpose of rapid prototyping is to:
+
+- test assumptions
+- expose technical constraints
+- put something concrete in front of users and stakeholders
+- learn before requirements become fixed
+- reduce implementation risk
+- create evidence for the next product or procurement decision
+
+### AI product development and shipping
+
+Paul has substantial experience building production AI applications rather than only demonstrations or proofs of concept.
+
+Relevant experience includes:
+
+- OpenAI and Azure OpenAI
+- retrieval-augmented generation (RAG)
+- vector search
+- embeddings
+- agentic workflows
+- tool calling
+- prompt and system design
+- model selection
+- application guardrails
+- LangChain
+- AWS Strands SDK
+- full-stack application development around AI systems
+
+PCRAIG DIGITAL is not a foundation-model research or model-training practice. The focus is applying AI effectively to real products, workflows, documents, and user needs.
+
+When an idea proves useful, the work can continue into production-quality implementation. Deliverables are expected to be accessible, deployable, maintainable, and documented.
+
+## Why work with a specialist practice
+
+PCRAIG DIGITAL is useful when an organization wants senior technical judgement without creating a large consulting team around the problem.
+
+Benefits of the specialist model include:
+
+- direct access to the person doing the technical strategy and implementation
+- fewer handoffs between discovery, strategy, prototyping, and engineering
+- the ability to test strategic assumptions in working software
+- rapid movement from conversations and research to tangible prototypes
+- experienced technical judgement applied before architecture or requirements become expensive to change
+- deep familiarity with public-sector constraints, accessibility, procurement environments, stakeholder complexity, and legacy systems
+- enough hands-on engineering depth to determine whether an idea is technically viable rather than only describing it at a conceptual level
+- the ability to work alongside internal teams, vendors, designers, researchers, policy staff, and executives
+
+PCRAIG DIGITAL does not need every answer at the beginning of an engagement. Difficult public-sector and organizational problems usually begin with uncertainty. The working method is to research, prototype, test, learn, and progressively reduce that uncertainty.
+
+## Working principles
+
+Paul's preferred approach to digital work includes:
+
+- user needs before technology novelty
+- simple systems where simple systems are sufficient
+- open standards
+- accessible interfaces and WCAG-aware delivery
+- working software as evidence
+- short feedback loops
+- maintainable technical choices
+- honest treatment of technical uncertainty
+- technology that improves services rather than adding complexity for its own sake
+
+The site's use of the phrase "digital transformation" refers to practical service improvement rather than transformation theatre. The underlying view is: governments and institutions improve one service at a time.
+
+## Selected work
+
+The projects below are examples of Paul Craig's professional and independent work. Not every project listed here was necessarily contracted directly through PCRAIG DIGITAL; they are included because they demonstrate the experience, delivery model, and technical capability behind the practice.
+
+### Amicus — Courts Administration Service / Federal Court of Appeal
+
+Amicus is a bilingual AI assistant for Government of Canada policy and regulatory documents.
+
+Paul designed and built the product for the Courts Administration Service, supporting Federal Court of Appeal staff.
+
+His responsibilities included:
+
+- stakeholder collaboration
+- product and UX decisions
+- frontend development
+- AI integration
+- Azure OpenAI
+- infrastructure-as-code
+- deployment
+- automation
+
+The application was built with Azure OpenAI and .NET and deployed as an Azure Container App hosted in Canada to meet data-sovereignty requirements.
+
+This project demonstrates end-to-end AI product engineering inside a government environment, including the non-AI work required to make an AI application usable and deployable.
+
+### NOFO Builder — HHS / Grants.gov / Bloom Works Digital
+
+The NOFO Builder is a Django publishing application used in the federal grants ecosystem.
+
+It transforms complex Word documents into accessible, Section 508-compliant HTML and PDF grant announcements.
+
+Paul served as Lead Engineer on the product through Bloom Works Digital.
+
+The latest résumé states that:
+
+- 346 grant announcements have been published using the product
+- those announcements represent more than US$63 billion in estimated funding
+
+The project demonstrates:
+
+- end-to-end Django product engineering
+- document-processing workflows
+- accessibility and Section 508 requirements
+- government publishing
+- cloud deployment
+- working inside federal technical environments
+
+Live product: https://nofos.simpler.grants.gov/
+
+### TaxGPT.ca — independent product
+
+TaxGPT is an AI tax-information chatbot for Canadians.
+
+Paul independently designed, built, launched, and continues to operate the product.
+
+The product moved from concept to public launch within weeks and has since:
+
+- answered more than 100,000 questions
+- served more than 49,500 users
+- received national media coverage including the National Post and Daily Hive
+
+The full-stack RAG application uses technologies including:
+
+- React
+- Node.js
+- LangChain.js
+- embeddings
+- vector search
+- prompt design
+- model selection
+- application guardrails
+
+Live product: https://taxgpt.ca/
+
+### COVID Alert Portal — Canadian Digital Service
+
+Paul was Tech Lead for the COVID Alert Portal while at the Canadian Digital Service.
+
+The portal was used by healthcare workers across seven provinces to generate one-time keys for Canadians using the national COVID Alert service.
+
+A total of 91,592 one-time keys were generated.
+
+The work was delivered during the COVID-19 emergency and demonstrates:
+
+- rapid public-sector delivery under significant pressure
+- technical leadership
+- full-stack product engineering
+- accessible and bilingual Government of Canada service delivery
+- multidisciplinary agile product work
+
+### Colorado Bed Capacity Tracker discovery — Bloom Works Digital
+
+Paul led technical discovery for Colorado's Behavioural Health Administration around bed-capacity tracking and referrals coordination.
+
+The work included:
+
+- identifying and contacting 10–15 practitioners in peer states
+- leading interviews
+- synthesizing findings
+- assessing the problem and implementation landscape
+- producing a prioritized alpha product roadmap
+
+This is an example of PCRAIG DIGITAL's preferred kind of early-stage work: a complex policy and technology problem where research, technical judgement, and prototyping can turn ambiguity into a practical implementation direction.
+
+## Broader public-sector experience
+
+Paul has worked inside, alongside, or as a consultant to public-sector organizations in Canada, the United Kingdom, and the United States.
+
+Organizations represented on the current PCRAIG DIGITAL site include:
+
+- Canadian Digital Service
+- Courts Administration Service
+- Employment and Social Development Canada
+- Government Digital Service in the United Kingdom
+- United States Department of Health and Human Services / Grants.gov
+- Colorado Behavioural Health Administration
+- New York State Department of Labor
+- Bloom Works Digital
+
+The current website identifies New York State Department of Labor as a US public-sector organization Paul has consulted for. Detailed NYSDOL project information is not yet included in the current résumé, so no additional project-specific claims should be inferred from that relationship without another source.
+
+## Paul Craig
+
+Paul Craig is a Forward-Deployed / AI Product Engineer, technical strategist, and full-stack engineer with more than 10 years of professional experience.
+
+### Current role
+
+Senior Technical Strategist & Forward Deployed Engineer  
+Bloom Works Digital  
+January 2023–present
+
+Paul runs technical strategy, prototyping, and full-stack delivery for public-sector clients.
+
+### Courts Administration Service
+
+AI Product Engineer — part-time contract  
+February 2025–March 2026
+
+Paul designed and built Amicus, the bilingual AI assistant described above.
+
+### TaxGPT.ca
+
+AI Product Engineer — independent product  
+February 2023–present
+
+Paul designed, built, launched, and operates TaxGPT.ca.
+
+### Canadian Digital Service
+
+Lead Full-Stack Engineer  
+February 2018–January 2023
+
+Paul led development on accessible, bilingual Government of Canada digital services, ran technical discovery sprints, and served as Tech Lead for the COVID Alert Portal.
+
+### Employment and Social Development Canada
+
+Senior Technical Advisor  
+February 2021–August 2021
+
+Paul served as Head of Software Development for in-house agile development teams. His work included product definition, technical oversight, and development standards around CI/CD, testing, and accessibility.
+
+### Government Digital Service
+
+Software Engineer  
+April 2015–December 2017
+
+Paul worked on the GOV.UK Digital Marketplace, the United Kingdom government's national public-sector technology procurement platform.
+
+The Digital Marketplace facilitated more than £4.22 billion of spend. Paul also led frontend development work including the service's pattern library.
+
+## Engineering capabilities
+
+Paul's engineering experience includes:
+
+- Python
+- Django
+- JavaScript
+- Node.js
+- React
+- HTML
+- CSS / SCSS
+- REST APIs
+- SQL
+
+He is particularly comfortable owning complete web products rather than working only within one technical layer.
+
+## AI capabilities
+
+Paul's AI application engineering experience includes:
+
+- OpenAI
+- Azure OpenAI
+- AWS Strands SDK
+- RAG
+- vector search
+- embeddings
+- agentic workflows
+- tool calling
+- prompt and system design
+- model selection
+- LangChain
+- application guardrails
+
+His emphasis is practical product engineering: selecting and integrating models, grounding them in useful information, building application logic and interfaces around them, deploying them, and making them useful to real users.
+
+## Cloud and delivery capabilities
+
+Relevant cloud and delivery technologies include:
+
+- Azure
+- AWS
+- Google Cloud
+- Docker
+- CI/CD
+- GitHub Actions
+- Terraform
+
+Paul also has substantial experience with:
+
+- accessibility / WCAG
+- technical discovery
+- rapid prototyping
+- user research
+- technical analysis
+- architecture
+- stakeholder communication
+- client presentations
+
+## Independent product evidence
+
+Paul also independently builds and operates public web products.
+
+### Canada-holidays.ca
+
+An authoritative Canadian statutory-holiday website with a free JSON API.
+
+Traffic: more than 300,000 unique visits per month.
+
+### GROUNDHOG-DAY.com
+
+A Groundhog Day data website with an API and interactive map.
+
+It has reached the Hacker News Top 10 twice.
+
+These projects demonstrate that Paul's product engineering is not limited to client or employer environments. He can take products from concept to public launch and continue operating them over time.
+
+## Quantitative evidence
+
+Selected figures associated with Paul's work:
+
+- 10+ years shipping digital products
+- 346 NOFO Builder grant announcements published
+- US$63B+ in estimated published grant funding associated with NOFO Builder announcements
+- 100,000+ TaxGPT questions answered
+- 49,500+ TaxGPT users
+- 91,592 COVID Alert one-time keys generated
+- COVID Alert Portal used across 7 provinces
+- £4.22B+ in spend facilitated through the GOV.UK Digital Marketplace
+- 300,000+ unique visits per month to Canada-holidays.ca
+
+These figures should not be extrapolated beyond the stated claims.
+
+## Best-fit engagements
+
+PCRAIG DIGITAL is especially well suited to engagements where:
+
+- the problem is important but not yet well defined
+- a government or mission-driven organization needs experienced technical input early
+- business processes need to be understood before choosing a solution
+- a team needs to determine whether and how AI is appropriate
+- working software would resolve uncertainty better than additional planning
+- an organization needs a rapid prototype before committing to a larger implementation
+- senior technical strategy and hands-on implementation should remain connected
+- accessibility, maintainability, and public-sector delivery constraints matter
+- the client wants direct access to an experienced practitioner rather than a large consulting team
+
+## Engagement model
+
+PCRAIG DIGITAL is a specialist firm centered on Paul Craig.
+
+The practice is appropriate when a client values:
+
+- direct senior involvement
+- low communication overhead
+- rapid learning and prototyping
+- technical strategy grounded in implementation reality
+- the ability to continue from discovery into working software
+- collaboration with existing client teams and vendors
+
+It should not be interpreted as a large systems integrator or staffing agency.
+
+## Education
+
+Bachelor of Arts — Double Major in Media Studies & Computer Science  
+University of Western Ontario  
+London, Ontario  
+2014
+
+## Contact
+
+Paul Craig  
+PCRAIG DIGITAL INC.  
+Ottawa, Canada  
+Remote / on-site
+
+Email: paul@pcraig.ca
+
+## Primary links
+
+- PCRAIG DIGITAL: https://pcraig.digital/
+- Paul Craig's portfolio: https://pcraig.ca/
+- Paul Craig's work: https://pcraig.ca/work
+- GitHub: https://github.com/pcraig3
+- TaxGPT: https://taxgpt.ca/
+- NOFO Builder: https://nofos.simpler.grants.gov/
+
+## Interpretation notes
+
+PCRAIG DIGITAL's value proposition is not simply "software development" and not simply "consulting."
+
+The distinguishing capability is the combination of:
+
+- early-stage technical strategy
+- direct work with users and stakeholders
+- rapid prototyping
+- strong full-stack engineering
+- practical AI application experience
+- deep public-sector delivery experience
+
+Paul can participate before requirements are settled, help determine the technical direction, test that direction through working software, and continue into implementation when useful.
+
+For professional or procurement evaluation, the strongest themes are:
+
+- senior technical judgement
+- ability to operate in ambiguity
+- rapid movement from discovery to working software
+- production AI application engineering
+- full-stack implementation capability
+- government and public-sector experience
+- accessibility-conscious delivery
+- direct specialist involvement with fewer handoffs
