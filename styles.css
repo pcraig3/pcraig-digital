@@ -332,8 +332,7 @@ mark {
   order: -1;
   margin: 0 0 14px;
   color: var(--lime);
-  font: 400 clamp(2.5rem, 4.5vw, 4rem)/1 var(--serif);
-  font-family: var(--body);
+  font: 400 clamp(2.5rem, 4.5vw, 4rem)/1 var(--body);
   letter-spacing: -.035em;
 }
 
