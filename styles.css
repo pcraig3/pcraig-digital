@@ -279,37 +279,18 @@ mark {
 
 .shot,
 .portrait {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  padding: 24px;
-  text-align: center;
-  color: var(--muted);
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .shot {
-  aspect-ratio: 16 / 9;
-  background: #e1e5de;
-  border-bottom: 1px solid var(--line);
-  font-size: .8rem;
-}
-
-.case:nth-child(2) .shot {
-  background: #e9e2d8;
-}
-
-.case:nth-child(3) .shot {
-  background: #dcede5;
-}
-
-.placeholder-label {
-  font: 700 .65rem/1.6 var(--mono);
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  border: 1px dashed currentColor;
-  padding: 6px 9px;
+  width: calc(100% - 48px);
+  margin: 24px auto 0;
+  aspect-ratio: 16 / 9.2;
+  object-fit: contain;
+  background: #fff;
+  border: 2px dotted var(--line);
 }
 
 .case-copy {
@@ -401,16 +382,15 @@ mark {
 
 .about-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
-  gap: 54px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 50px;
   align-items: start;
 }
 
 .portrait {
-  aspect-ratio: 4 / 5;
-  background: #d9ddd8;
-  border: 1px solid var(--line);
-  font-size: .875rem;
+  object-fit: cover;
+  background: var(--mint);
+  border: 2px dotted var(--ink);
 }
 
 .about h2 {
